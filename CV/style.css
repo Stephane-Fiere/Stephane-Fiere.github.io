@@ -1,0 +1,116 @@
+/***************HEADER******************/
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.wrapper{
+  display: flex;
+}
+header{
+  max-width: 35%;
+  background: #0ee7e4;
+  height: 170vh;
+}
+.photocv {
+  margin: 10%;
+  text-align: center;
+}
+#photocv__img{
+  width: 90%;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 0.75rem crimson);
+  margin-top: 80px;
+}
+.logoNav{
+  max-width: 10%;
+  margin: 10px auto;
+}
+header h3{
+  font-size: 1.5em;
+  color: white;
+  margin: 60px 50px;
+  padding-right: 40px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+}
+ul {
+  margin-left: 5%;
+}
+ul li{
+  position: relative;
+}
+ul li p{
+  position: absolute;
+  left: 15%;
+  bottom: 28%;
+  color: white;
+}
+
+.competences__loisirs{
+  margin: 0 20%;
+  list-style-type: circle;
+  text-align: start;
+  color: white;
+  line-height: 1.5em;
+}
+
+/************MAIN***************/
+
+main {
+  text-align: center;
+}
+.Titlehead{
+  height: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#Title{
+  font-size: 5em;
+  width: 78%;
+  color: #1d7687;
+  text-transform: uppercase;
+  text-align: start;
+  padding-right: 10%;
+  
+}
+#Project{
+  align-self: baseline;
+  margin-left: 6%;
+  color: #1d7687;
+}
+h3{
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  color: #1bc6e7;
+  margin: 1em auto;
+  border-bottom: 1px solid ;
+}
+h4 {
+  font-size: 1.2em;
+}
+.contenair{
+  width: 80%;
+  margin-left: 6%;
+  text-align: start;
+}
+p{
+  font-weight: 200;
+}
+.lieuxdetravail{
+  font-size: 0.8em;
+  padding: 5px 0;
+  color: rgba(1, 1, 12, 0.363);
+  margin-bottom: 1em;
+}
+main ol {
+  font-weight: normal;
+  padding-bottom: 3em;
+}
+.listeexperience{
+  list-style-type: circle;
+  margin-left: 2%;
+}
+
+
